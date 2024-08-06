@@ -1,0 +1,106 @@
+{
+    "intents": [{
+            "tag": "greetings",
+            "patterns": ["hi there", "hello","haroo","yaw","wassup", "hi", "hey", "holla", "hello"],
+            "responses": ["Hello, I am Emily from Fortune Bank. I am a chatbot. How can I help? "],
+            "context": [""]
+        },
+        {
+            "tag": "student name",
+            "patterns": ["I want to apply for private student loan"],
+            "responses": ["Ok, I need a lot of information from you. Pleae answer all of the following questions. What is your full name?", "Ok, I will ask you questions and please answer them. What is you first & last name?"],
+            "context": [""]
+        },
+        {
+            "tag": "student phone number",
+            "patterns": ["Saishree Ramkumar"],
+            "responses": ["What is your phone number?"],
+            "context": [""]
+        },
+        {
+            "tag": "student school name",
+            "patterns": ["708-915-0123"],
+            "responses": ["What is your school name?", "Which school do you go to?"],
+            "context": [""]
+        },
+        {
+            "tag": "student date of birth",
+            "patterns": ["John P. Stevens High school"],
+            "responses": ["What is your date of birth?", "When is your birthday?"],
+            "context": [""]
+        },
+        {
+            "tag": "driving licence number",
+            "patterns": ["1/20/2008"],
+            "responses": ["What is your driving licence number?"],
+            "context": [""]
+        },
+        {
+            "tag": "student SSN number",
+            "patterns": ["22 222 222"],
+            "responses": ["What is your SSN number?", "What is your Social Security number?"],
+            "context": [""]
+        },
+        {
+            "tag": "student monthly income",
+            "patterns": ["111-11-1111"],
+            "responses": ["What is your monthly income?"],
+            "context": [""]
+        },
+        {
+            "tag": "student employer's name",
+            "patterns": ["$555"],
+            "responses": ["What is your employer's name?"],
+            "context": [""]
+        },
+        {
+            "tag": "",
+            "patterns": ["Dollar Tree"],
+            "responses": ["What is your mortgage payment?"],
+            "context": [""]
+        },
+        {
+            "tag": "student graduation year",
+            "patterns": ["$1000"],
+            "responses": ["What is your anticipation graduation year?"],
+            "context": [""]
+        },
+        {
+            "tag": "Co-signer name",
+            "patterns": ["2026"],
+            "responses": ["What is your co-signer name?"],
+            "context": [""]
+        },
+        {
+            "tag": "Loan amount",
+            "patterns": ["Ramkumar"],
+            "responses": ["How much money do you want?"],
+            "context": [""]
+        },
+        {
+            "tag": "Loan lenght",
+            "patterns": ["$25,000"],
+            "responses": ["How long do you want the loan to last?"],
+            "context": [""]
+        },
+        {
+            "tag": "Thank",
+            "patterns": ["entire year"],
+            "responses": ["Thankyou for applying your loan in Fortune bank. We will contact you soon.", "Thankyou. We will reach out soon from Fortune bank."],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["bye", "good bye", "see you later"],
+            "responses": ["have a nice time, welcome back again", "bye bye"],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "okay","Thank you","thankyou", "That's helpful", "Awesome, thanks", "Thanks for helping me", "wow", "great"],
+            "responses": ["Happy to help!", "Any time!","you're welcome", "My pleasure"],
+            "context": [""]
+        }
+
+    ]
+}
